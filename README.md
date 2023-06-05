@@ -17,10 +17,12 @@ Installer Angular CLI :
 npm install -g @angular/cli
 ```
 
-Dupliquer le fichier de configuration exemple et configurer l'URL de l'API :
+Dupliquer le fichier de configuration exemple :
 ```
 cp src/assets/environments/environment.example.json src/assets/environments/environment.json
 ```
+
+Modifier le fichier `configuration.json` pour y indiquer l'URL de [l'API](https://github.com/atelier-vigirisque/backend).
 
 Installer les dépendances :
 ```
