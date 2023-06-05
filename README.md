@@ -22,7 +22,7 @@ Dupliquer le fichier de configuration exemple :
 cp src/assets/environments/environment.example.json src/assets/environments/environment.json
 ```
 
-Modifier le fichier `configuration.json` pour y indiquer l'URL de [l'API](https://github.com/atelier-vigirisque/backend).
+Modifier le fichier `environment.json` pour y indiquer l'URL de [l'API](https://github.com/atelier-vigirisque/backend).
 
 Installer les dépendances :
 ```
@@ -36,11 +36,8 @@ Lancer la compilation et le serveur HTTP local :
 npm run start
 ```
 
-### Production
 
-Compiler :
-```
-npm run build
-```
 
-Configurer un serveur HTTP pour servir le dossier `dist/interface-client` généré par Angular.
+## Installation en production
+
+[Documentation Debian 11](documentation/installation_debian11.md)
