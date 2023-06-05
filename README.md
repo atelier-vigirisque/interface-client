@@ -4,11 +4,13 @@ Front-end Angular de l'applicatif Atelier vigirisque.
 
 Affiche les stations provenant de l'API sur une carte.
 
+![Image](_documentation/screenshot.png)
+
+## Installation
+
 Pré requis
 - Node.JS / NPM LTS
 - Angular CLI
-
-## Configuration
 
 Installer Angular CLI :
 ```
