@@ -31,13 +31,14 @@ npm install
 
 ### Développement
 
-En développement :
+Lancer la compilation et le serveur HTTP local :
 ```
 npm run start
 ```
 
-
 ### Production
+
+Compiler :
 ```
 npm run build
 ```
