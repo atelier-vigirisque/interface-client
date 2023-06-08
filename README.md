@@ -26,7 +26,7 @@ Modifier le fichier `environment.json` pour y indiquer l'URL de [l'API](https://
 
 Installer les dépendances :
 ```
-npm install
+npm ci
 ```
 
 ### Développement

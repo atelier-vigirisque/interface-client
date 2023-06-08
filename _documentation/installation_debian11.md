@@ -25,7 +25,7 @@ git clone https://github.com/atelier-vigirisque/interface-client.git
 Compiler le projet Angular :
 ```
 cd /var/www/interface-client
-npm install
+npm ci
 npm run build
 ```
 
