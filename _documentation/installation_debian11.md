@@ -22,11 +22,15 @@ cd /var/www
 git clone https://github.com/atelier-vigirisque/interface-client.git
 ```
 
-Compiler le projet Angular :
+Installer les dépendances :
 ```
 cd /var/www/interface-client
+<<<<<<< HEAD
 npm ci
 npm run build
+=======
+npm install
+>>>>>>> 5a77df6 (:sparkles:)
 ```
 
 Préparer la configuration :
@@ -35,6 +39,11 @@ cp src/assets/environments/environment.example.json src/assets/environments/envi
 ```
 
 Modifier le fichier `environment.json` pour y indiquer l'URL de l'API.
+
+Compiler le projet
+```
+npm run build
+```
 
 Configurer Apache :
 ```
